@@ -2,12 +2,28 @@
 <sound>
   <kind>0</kind>
   <extension>.wav</extension>
-  <origname>player-jump.wav</origname>
+  <origname>sound\audio\jump.wav</origname>
   <effects>0</effects>
-  <volume>1</volume>
+  <volume>
+    <volume>1</volume>
+  </volume>
   <pan>0</pan>
-  <mp3BitRate>192</mp3BitRate>
-  <oggQuality>21</oggQuality>
+  <bitRates>
+    <bitRate>192</bitRate>
+  </bitRates>
+  <sampleRates>
+    <sampleRate>44100</sampleRate>
+  </sampleRates>
+  <types>
+    <type>0</type>
+  </types>
+  <bitDepths>
+    <bitDepth>16</bitDepth>
+  </bitDepths>
   <preload>-1</preload>
   <data>jump.wav</data>
+  <compressed>0</compressed>
+  <streamed>0</streamed>
+  <uncompressOnLoad>0</uncompressOnLoad>
+  <audioGroup>0</audioGroup>
 </sound>

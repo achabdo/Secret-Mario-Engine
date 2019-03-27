@@ -4148,36 +4148,6 @@ tortu.hspeed=-2
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>virtualLeft = virtual_key_add(10, 100, 128, 128, vk_left);
-virtualRight = virtual_key_add(600, 100, 128, 128, vk_right);
-virtualJump = virtual_key_add(300, 50, 128, 128, vk_space);
-
-draw_sprite(traj_left,-1,10,100);
-draw_sprite(traj_right,-1,600,100);
-draw_sprite(traj_up,-1,300,50);
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="10" enumb="39">
       <action>
         <libid>1</libid>

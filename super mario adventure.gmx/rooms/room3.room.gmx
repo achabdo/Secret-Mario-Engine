@@ -10,9 +10,10 @@
   <persistent>0</persistent>
   <colour>16769970</colour>
   <showcolour>0</showcolour>
-  <code></code>
+  <code>audio_play_sound(music_room2,1,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -30,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="&lt;undefined&gt;" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background311" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="&lt;undefined&gt;" x="0" y="88" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -40,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="600" vborder="0" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="mario_small" xview="0" yview="0" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="600" vborder="0" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -324,7 +325,6 @@
     <instance objName="pipe_bleu" x="2692" y="322" name="inst_849FF99C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object216" x="2692" y="372" name="inst_40DFCFC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="trajactoir" x="2725" y="413" name="inst_8F5E4DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="view" x="-1" y="0" name="inst_7B29375B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controller" x="22" y="1" name="inst_421D77C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tortu_red" x="5648" y="205" name="inst_95DF0028" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="devior" x="5552" y="224" name="inst_7B64EC97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -421,8 +421,7 @@
     <instance objName="timpus" x="7052" y="430" name="inst_D6BA509A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="timpus" x="7138" y="430" name="inst_CD2D5CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="timpus" x="7267" y="430" name="inst_136CC13D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="player_obj" x="43" y="477" name="inst_0743FAEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object266" x="-559" y="251" name="inst_952E8801" locked="0" code="" scaleX="0" scaleY="0.213740453124046" colour="4294967295" rotation="0"/>
+    <instance objName="mario_small" x="43" y="445" name="inst_992A1D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background231" x="288" y="408" w="128" h="64" xo="0" yo="64" id="10000332" name="tile_F0549EC1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
