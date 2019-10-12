@@ -7,3 +7,8 @@ Required configuration to build :
 - NetFramework 3.5
 
 Game sounds and graphics were imported from prevois mario games and the open source project secret maryo chronicles ,some parts of the game are written in GML will others are directly drawed using game maker commands.
+
+Screnn shots:
+![Capture d’écran (3)](https://user-images.githubusercontent.com/11176293/66700240-538ea000-ece6-11e9-8f0e-9d579a72349c.png)
+![Capture d’écran (4)](https://user-images.githubusercontent.com/11176293/66700241-54273680-ece6-11e9-86bf-7f57d54eabac.png)
+
