@@ -11,7 +11,7 @@ Game sounds and graphics were imported from prevois mario games and the open sou
 Contributeurs:
 - Achrouf Abdenour
 - Reda kherfallah
-Screnn shots:
+Screen shots:
 ![Capture d’écran (3)](https://user-images.githubusercontent.com/11176293/66700240-538ea000-ece6-11e9-8f0e-9d579a72349c.png)
 ![Capture d’écran (4)](https://user-images.githubusercontent.com/11176293/66700241-54273680-ece6-11e9-86bf-7f57d54eabac.png)
 
